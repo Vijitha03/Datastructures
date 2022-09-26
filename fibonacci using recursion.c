@@ -26,6 +26,9 @@ printf(" %d",sum);
 }
 return 0;
 }
-
+SAMPLE OUTPUT
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+Enter the number of terms: 6
+Fibonacci Series: 0 1 1 2 3 5
 
 
