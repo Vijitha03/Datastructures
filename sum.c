@@ -14,4 +14,4 @@
  	NAME: YADDALA VIJITHA  REG.NO: -192124187
 4
 9
-the sum of x and y is:13SS
+the sum of x and y is:13
