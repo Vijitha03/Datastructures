@@ -15,5 +15,10 @@ int main()
   n2=n3;    
  }  
   return 0;  
- }    
+ }  
+SAMPLE OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+Enter the number of elements:4
+
+0 1 1 2
 
