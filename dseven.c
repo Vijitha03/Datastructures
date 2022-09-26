@@ -12,3 +12,7 @@ int main()
 	printf("odd number");
 	return 0;
 }
+SAMPLE OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+76
+it is a even number
