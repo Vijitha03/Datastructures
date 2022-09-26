@@ -50,3 +50,20 @@ printf("\n");
 }    
 return 0;  
 }
+SAMPLE INPUT :
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+enter the m value=2
+enter the n value =2
+enter the first matrix element=
+5
+4
+4
+3
+enter the second matrix element=
+2
+6
+7
+8
+multiply of the matrix=
+38      62
+29      48
