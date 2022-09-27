@@ -38,3 +38,16 @@ int main()
 	}
 
 }
+SAMPLE OUTPUT;
+
+enter the size of array5
+enter array elements
+3
+enter array elements
+4
+enter array elements
+5
+enter array elements
+6
+enter array elements
+5 3 4 5 6 after insert5 3 4 5 6 33
