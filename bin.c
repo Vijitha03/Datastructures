@@ -27,3 +27,18 @@ if(low > high)
 printf("Not found! %d isn't present in the list",key);
 return 0;
 }
+
+SAMPLE OUTPUT:
+Enter number of elements :10
+Enter 10 integers:2
+3
+4
+5
+6
+7
+8
+9
+11
+23
+Enter value to find:6
+6 found at location 5
