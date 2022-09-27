@@ -18,3 +18,12 @@ int main(){
 	 return 0;
 	 
 }
+SAMPLE OUTPUT
+no of elements:5
+enter the array elements:4
+89
+77
+65
+45
+enter the element 45
+element found at index 4
