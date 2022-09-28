@@ -57,3 +57,16 @@ void mergesort(int low,int mid,int high)
 mergesort(low,mid,high);
  }
  }
+SAMPLE OUTOUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+
+Enter the n value:5
+
+Enter elements for an array:3
+4
+5
+6
+2
+
+Before Sorting the elements are:3 4 5 6 2
+After Sorting the elements are:2 3 4 5 6
