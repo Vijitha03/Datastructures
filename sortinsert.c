@@ -22,3 +22,23 @@ void main( )
  printf("%d\n", a[i]);
  getch( );
 }
+SAMPLE OUTPUT
+
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+How many elements you want to sort?
+5
+
+Enter the Elements into an array:
+343
+56
+78
+97
+32
+
+
+ Elements after sorting:
+32
+56
+78
+97
+343
