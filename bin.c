@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+ printf("NAME: YADDALA VIJITHA  REG.NO: -192124187");
+ printf("\n"); 
 int i, low, high, mid, n, key, array[100];
 printf("Enter number of elements :");
 scanf("%d",&n);
@@ -29,6 +31,8 @@ return 0;
 }
 
 SAMPLE OUTPUT:
+Yaddala Vijitha -Reg no.192124187
+
 Enter number of elements :10
 Enter 10 integers:2
 3
