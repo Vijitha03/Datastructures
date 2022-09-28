@@ -47,3 +47,14 @@ while(pivot>a[i]&&i<=high)
  quicksort(a,j+1,high);
 }
 }
+
+SAMPLE OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+
+How many elements you want to sort ? 5
+Enter elements for an array:67
+889
+43
+56
+22
+After Sorting the elements are:22 43 56 67 889
