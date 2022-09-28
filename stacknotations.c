@@ -71,3 +71,17 @@ int main() {
    
    return 0;
 }
+
+SAMPLE OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+Element at top of the stack: 15
+Elements:
+15
+12
+1
+9
+5
+3
+Stack full: false
+Stack empty: true
+
