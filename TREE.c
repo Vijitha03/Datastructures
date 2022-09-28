@@ -142,3 +142,12 @@ int main() {
 
    return 0;
 }
+SAMPLE  OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+
+Visiting elements: 27 35 [31] Element found.
+Visiting elements: 27 14 19 [ x ] Element not found (15).
+
+Preorder traversal: 27 14 10 19 35 31 42
+Inorder traversal: 10 14 19 27 31 35 42
+Post order traversal: 10 19 14 31 42 35 27
