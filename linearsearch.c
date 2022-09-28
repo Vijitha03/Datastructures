@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
+	printf("NAME: YADDALA VIJITHA  REG.NO: -192124187");
+        printf("\n"); 
 	int a[10],i,x,n;
 	printf("no of elements:");
 	scanf("%d",&n);
@@ -19,6 +21,7 @@ int main(){
 	 
 }
 SAMPLE OUTPUT
+NAME: YADDALA VIJITHA  REG.NO: -192124187
 no of elements:5
 enter the array elements:4
 89
