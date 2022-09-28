@@ -2,6 +2,8 @@
 #include<conio.h>
 int insertarray(int arr[],int a,int key,int cap)
 {
+	 printf("NAME: YADDALA VIJITHA  REG.NO: -192124187");
+         printf("\n"); 
 	if(a>=cap)
 	{
 		return a;
@@ -39,6 +41,7 @@ int main()
 
 }
 SAMPLE OUTPUT;
+"NAME: YADDALA VIJITHA  REG.NO: -192124187 
 
 enter the size of array5
 enter array elements
