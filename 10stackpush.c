@@ -92,3 +92,38 @@ void display()
    
 }
 
+SAMPLE OUTPUT:
+NAME: YADDALA VIJITHA  REG.NO: -192124187
+
+ Enter the size of STACK[MAX=100]:5
+
+         STACK OPERATIONS USING ARRAY
+        --------------------------------
+         1.PUSH
+         2.POP
+         3.DISPLAY
+         4.EXIT
+ Enter the Choice:1
+ Enter a value to be pushed:2
+
+ Enter the Choice:1
+ Enter a value to be pushed:3
+
+ Enter the Choice:1
+ Enter a value to be pushed:5
+
+ Enter the Choice:1
+ Enter a value to be pushed:7
+
+ Enter the Choice:1
+ Enter a value to be pushed:8
+
+ Enter the Choice:1
+
+        STACK is over flow
+ Enter the Choice:2
+
+         The popped elements is 8
+
+
+
