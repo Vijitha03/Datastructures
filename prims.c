@@ -84,3 +84,26 @@ min_cost=min_cost+cost[u][v];
 }
 return(min_cost);
 }
+
+SAMPLE OUTPUT:
+NAME : YADDALA VIJITHA  REG NO. 192124187
+Enter no. of vertices:6
+
+Enter the adjacency matrix:
+0 3 1 6 0 0
+3 0 5 0 3 0
+1 5 0 5 6 4
+6 0 5 0 0 2
+0 3 6 0 0 6
+0 0 4 2 6 0
+
+spanning tree matrix:
+
+0       3       1       0       0       0
+3       0       0       0       3       0
+1       0       0       0       0       4
+0       0       0       0       0       2
+0       3       0       0       0       0
+0       0       4       2       0       0
+
+Total cost of spanning tree=13
