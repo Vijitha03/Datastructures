@@ -152,3 +152,12 @@ int main() {
   kruskalAlgo();
   print();
 }
+SAMPLE OUTPUT:
+NAME : YADDALA VIJITHA  REG NO. 192124187
+
+2 - 1 : 2
+5 - 2 : 2
+3 - 2 : 3
+4 - 3 : 3
+1 - 0 : 4
+Spanning tree cost: 14
