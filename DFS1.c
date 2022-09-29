@@ -144,4 +144,7 @@ int main() {
   printPreOrder(root);
   return 0;
 }
-
+SAMPLE OUTPUT:
+NAME : YADDALA VIJITHA  REG NO. 192124187
+4 2 1 3 7 5 8
+After deletion: 4 2 1 7 5 8
