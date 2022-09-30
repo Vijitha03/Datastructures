@@ -1,5 +1,3 @@
-// DFS algorithm in C
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,12 +12,11 @@ struct Graph {
   int numVertices;
   int* visited;
 
-  // We need int** to store a two dimensional array.
-  // Similary, we need struct node** to store an array of Linked lists
+  
   struct node** adjLists;
 };
 
-// DFS algo
+
 void DFS(struct Graph* graph, int vertex) {
   struct node* adjList = graph->adjLists[vertex];
   struct node* temp = adjList;
@@ -37,7 +34,7 @@ void DFS(struct Graph* graph, int vertex) {
   }
 }
 
-// Create a node
+
 struct node* createNode(int v) {
   struct node* newNode = malloc(sizeof(struct node));
   newNode->vertex = v;
@@ -45,7 +42,7 @@ struct node* createNode(int v) {
   return newNode;
 }
 
-// Create graph
+
 struct Graph* createGraph(int vertices) {
   struct Graph* graph = malloc(sizeof(struct Graph));
   graph->numVertices = vertices;
@@ -62,20 +59,20 @@ struct Graph* createGraph(int vertices) {
   return graph;
 }
 
-// Add edge
+
 void addEdge(struct Graph* graph, int src, int dest) {
-  // Add edge from src to dest
+  
   struct node* newNode = createNode(dest);
   newNode->next = graph->adjLists[src];
   graph->adjLists[src] = newNode;
 
-  // Add edge from dest to src
+
   newNode = createNode(src);
   newNode->next = graph->adjLists[dest];
   graph->adjLists[dest] = newNode;
 }
 
-// Print the graph
+
 void printGraph(struct Graph* graph) {
   int v;
   for (v = 0; v < graph->numVertices; v++) {
@@ -104,3 +101,21 @@ int main() {
 
   return 0;
 }
+SAMPLE OUTPUT:
+NAME : YADDALA VIJITHA  REG NO. 192124187
+
+ Adjacency list of vertex 0
+ 2 -> 1 ->
+
+ Adjacency list of vertex 1
+ 2 -> 0 ->
+
+ Adjacency list of vertex 2
+ 3 -> 1 -> 0 ->
+
+ Adjacency list of vertex 3
+ 2 ->
+Visited 2
+Visited 3
+Visited 1
+Visited 0
